@@ -2,9 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --bg: 245 245 255;
-}
-
 html, body, #__next { height: 100%; }
-body { @apply bg-gradient-to-b from-slate-50 to-slate-100 text-slate-900; }
+body { @apply bg-gradient-to-b from-slate-50 to-slate-100 text-slate-900 dark:from-slate-900 dark:to-black dark:text-slate-100; }
