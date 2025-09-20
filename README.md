@@ -2,6 +2,11 @@
 
 Generate actionable tasks from a story/spec locally in your browser using WebLLM — no API keys, no server.
 
+## Screenshots
+
+### Home
+![Home](assets/Screenshot_story_task.png)
+
 ## Features
 - 100% client-side LLM via WebGPU (@mlc-ai/web-llm)
 - Clean UI with Tailwind CSS
